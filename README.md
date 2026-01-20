@@ -1,4 +1,4 @@
-# vConfig Drift Detector (Python)
+# Config Drift Detector (Python)
 
 A Python tool that detects configuration drift by comparing expected and actual system configuration files.
 

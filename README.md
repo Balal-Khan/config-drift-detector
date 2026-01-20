@@ -1,4 +1,4 @@
-#Config Drift Detector (Python)
+# vConfig Drift Detector (Python)
 
 A Python tool that detects configuration drift by comparing expected and actual system configuration files.
 
@@ -24,17 +24,16 @@ The project is inspired by real world infrastructure and systems engineering wor
 - Modular Python design
 
 ## Project Structure
+
 config-drift-detector/
-│
-├── main.py 
+├── main.py
 ├── drift/
-│ ├── loader.py 
-│ ├── comparer.py 
-│ └── init.py
-│
-└── sample_configs/
+│   ├── loader.py     
+│   ├── comparer.py    
+│   ├── init.py     
+├── sample_configs/
 ├── expected.json 
-└── actual.json 
+├── actual.json
 
 ## How It Works
 
